@@ -113,7 +113,7 @@ The easiest way is to allocate a Weaviate instance on [Weaviate](https://weaviat
 
 Install-Module Oraculum
 
-During the first run you need to create the _Oraculum_ configuration file (if you use an unauthenticated version of Weaviate you can omit the ApiKey and also the OrgID in the OpenAI API is not rally used):
+During the first run you need to create the _Oraculum_ configuration file (if you use an unauthenticated version of Weaviate you can omit the ApiKey and also the OrgID in the OpenAI API is not really used):
 
     $c = New-Object OraculumCLI.OraculumConfiguration
     $c.OpenAIApiKey = 'Your key'
