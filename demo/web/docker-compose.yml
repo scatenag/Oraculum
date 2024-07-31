@@ -21,7 +21,7 @@ services:
 
   oraculum-api:
     build:
-      dockerfile: web/OraculumAPI/Dockerfile
+      dockerfile: web/OraculumApi/Dockerfile
       context: ../..
     ports:
       - 5009:80
